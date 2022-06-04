@@ -1,0 +1,13 @@
+nav {
+    float: right;
+    height: 120px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 55px;
+    text-decoration: none;
+}
+.Home img{
+    width: 400px;
+    height: 400px;
+}
