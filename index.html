@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
     <main>
         <header>
             <nav>
-        
+
                 <div class="navright">
                     <ul>
                         <li> <a href="/index.html"> Home</a> </li>
@@ -21,15 +23,15 @@
                         <li> <a href="About.html"> Contact</a> </li>
                         <li> <a href="Contact.html"> Contact Us</a> </li>
                     </ul>
-        
+
                 </div>
                 <div class="navleft">
                     <p>Portfolio</p>
                 </div>
-        
-        
-            
-        </nav>
+
+
+
+            </nav>
         </header>
         <div class="Home">
             <img src="./Assets/Dee.jpg" alt="">
@@ -41,13 +43,41 @@
         </div>
         <div class="portfolio">
             <p>A small collection of projects i recently worked on,</p>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./Assets/fireshot1.png" style="width:40%">
+                    <div class="text">Quick rentals</div>
+                </div>
+    
+                <div class="mySlides">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./Assets/fireshot3.png" style="width:40%">
+                    <div class="text">Quick rentals</div>
+                </div>
+    
+                <div class="mySlides">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./Assets/fireshot3.png" style="width:40%">
+                    <div class="text">Quick rentals</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"><span id="arrow">❮</span> </a>
+            <a class="next" onclick="plusSlides(1)"> <span id="arrow">❯</span> </a> <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                
+            </div>
+            </div>
+    
 
         </div>
         <div class="contact">
-        
+
             <form action="#"></form>
             <h2>Contact </h2>
             Name<input class="frm" type="text" placeholder="enter your name" id="#">
@@ -57,7 +87,7 @@
             <button>send <a href="#" class="fa fa-send"></a></button>
 
         </div>
-         <footer> 
+        <footer>
             <div class="icons">
                 <a href="#" class="fa fa-linkedin"></a>
                 <a href="#" class="fa fa-facebook"> </a>
@@ -70,6 +100,7 @@
 
         </footer>
     </main>
-    
+
 </body>
+
 </html>
