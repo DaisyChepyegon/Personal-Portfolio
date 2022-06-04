@@ -70,8 +70,8 @@ main{
     margin: 10px;
 }
 .portfolio img{
-    width: 30%;
-    height: 400px;
+    width: 32%;
+    height: 450px;
     padding: 20px;
 }
 #screenshot {
@@ -81,8 +81,8 @@ main{
     margin: 10px;
 }
 #screenshot img{
-    width: 30%;
-    height: 400px;
+    width: 32%;
+    height: 450px;
     padding: 40px;
 }
 .image {
@@ -150,4 +150,5 @@ main{
  footer{
      background-color: grey;
      align-items: center;
+     justify-content: center;
  }
