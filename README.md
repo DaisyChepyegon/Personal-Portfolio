@@ -10,7 +10,7 @@ Daisy Chepyegon
 
 ## Screenshot
 
-![image](/Assets/images/Moringa.png)
+![image](./Assets/Portfolio.png)
 
 
 ---
