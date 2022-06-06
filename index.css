@@ -61,6 +61,7 @@ main{
     margin-left: 100px;
     margin-top: 100px;
     font-size: xx-large;
+    color: rgb(109, 65, 150);
 }
 .txts button{
     align-items: center;
@@ -158,6 +159,7 @@ main{
      display: flex;
      flex-direction: row;
      margin: 20px;
+     margin-left: 350px;
  }
  .icons a{
      padding: 20px;
@@ -170,6 +172,7 @@ main{
  .icon{
      margin: 20px;
      margin-bottom: 20px;
+     margin-left: 20px;
 
  }
  footer{
