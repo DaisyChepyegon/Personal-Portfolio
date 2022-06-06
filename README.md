@@ -1,4 +1,4 @@
-# MORINGA SCHOOL LANDING PAGE 
+# PERSONAL PORTFOLIO 
 
 this is my personal portfolio describing my skills
 
